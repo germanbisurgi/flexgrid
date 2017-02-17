@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <title>Flexgrid example</title>
+</head>
+<body>
+    <div class="wrapper">
+
+
+
+
+        <header>
+            <h1>FlexGrid</h1>
+            <p>A grid system based on flexbox</p>
+        </header>
+
+
+
+
+        <section>
+            <h2>Responsive</h2>
+            <p>
+                Responsive modifiers (xs, sm, md &amp; lg) enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.
+            </p>
+            <div class="row jc-space-between">
+                <div class="cell xs-12 sm-3  md-4 lg-4"></div>
+                <div class="cell xs-12 sm-6  md-4 lg-8"></div>
+                <div class="cell xs-12 sm-3  md-4 lg-8"></div>
+                <div class="cell xs-12 sm-6  md-4 lg-4"></div>
+                <div class="cell xs-12 sm-6  md-4 lg-3"></div>
+                <div class="cell xs-12 sm-12 md-4 lg-9"></div>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <h2>Offsets</h2>
+            <p>Offset a column</p>
+            <div class="row jc-space-between ">
+                <div class="cell xs-5"></div>
+                <div class="cell xs-5"></div>
+                <div class="cell xs-2"></div>
+                <div class="cell xs-5 xs-off-5"></div>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <h2>Nesting</h2>
+            <p>Yes, we can</p>
+            <div class="row jc-space-between ">
+                <div class="cell xs-8">
+                    <div class="row jc-space-between ">
+                        <div class="nested-cell xs-8"></div>
+                        <div class="nested-cell xs-4"></div>
+                    </div> 
+                </div>
+                <div class="cell xs-4">
+                    <div class="row jc-space-between ">
+                        <div class="nested-cell xs-8"></div>
+                        <div class="nested-cell xs-4"></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <h2>Gutters</h2>
+            <p>BOH</p>
+            <div class="row jc-space-between ">
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>
+                <div class="cell xs-1"></div>               
+            </div>
+        </section>
+
+
+
+
+    </div>
+</body>
+</html>

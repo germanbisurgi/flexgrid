@@ -1,0 +1,26 @@
+body {background: #eee;}
+
+
+h1 {margin: 0 0 18px 0; font-size: 36px;}
+h2 {margin: 0 0 15px 0; font-size: 30px;}
+h3 {margin: 0 0 12px 0; font-size: 24px;}
+h4 {margin: 0 0  9px 0; font-size: 18px;}
+h5 {margin: 0 0  7px 0; font-size: 14px;}
+h6 {margin: 0 0  6px 0; font-size: 12px;}
+p  {margin: 0 0  8px 0; font-size: 16px;}
+
+section, header {padding: 50px 0;}
+
+.wrapper {padding: 0 15px}
+
+.cell,
+.nested-cell {
+    border: 1px solid black;
+    background: #67BC41;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nested-cell {
+    background: #457a2d;
+}
