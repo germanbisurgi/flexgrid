@@ -11,6 +11,7 @@ Flexgrid:  xs-12 xs-off-2
 
 Bootstrap:
 <br />
+```html
 <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4"></div>
@@ -18,11 +19,13 @@ Bootstrap:
       <div class="col-sm-4"></div>
     </div>
 </div>
-
+```
 FlexGrid:
 <br />
+```html
 <div class="row">
     <div class="sm-4"></div>
     <div class="sm-4"></div>
     <div class="sm-4"></div>
 </div>
+```
