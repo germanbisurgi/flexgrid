@@ -2,9 +2,17 @@
 
 ##syntax sugar
 
-Bootstrap: col-xs-12 col-xs-offset-2 
+Bootstrap:
+```html
+col-xs-12 col-xs-offset-2
+```
+
 <br />
-Flexgrid:  xs-12 xs-off-2
+
+Flexgrid:
+```html
+xs-12 xs-off-2
+```
 
 ## no need a container
 
