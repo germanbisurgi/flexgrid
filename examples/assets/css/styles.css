@@ -13,14 +13,16 @@ section, header {padding: 50px 0;}
 
 .wrapper {padding: 0 15px}
 
-.cell,
-.nested-cell {
+.box {
     border: 1px solid black;
     background: #67BC41;
     color: #fff;
-    padding: 10px 0;
+    padding:15px;
 }
 
-.nested-cell {
-    background: #457a2d;
+.nested-box {
+    border: 1px solid black;
+    background: #006699;
+    color: #fff;
+    padding:15px;
 }
