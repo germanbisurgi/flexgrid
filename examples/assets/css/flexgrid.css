@@ -32,10 +32,7 @@
 .ac-space-around {-webkit-align-content: space-around;-ms-flex-line-pack: distribute;align-content: space-around;}
 
 /*gutter */
-/*
- @gutter: 30px;
- column@gutter / 2);
-*/
+
 
 /* columns */
 .xs-1  {flex-basis:  8.33%; padding: 0 10px;} 
