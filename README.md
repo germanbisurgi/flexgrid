@@ -1,4 +1,4 @@
-# flexgrid
+# FlexGrid
 
 ##syntax sugar
 
@@ -14,9 +14,7 @@ xs-12 xs-off-2
 
 ## no need a container
 
-
 Bootstrap:
-
 
 ```html
 <div class="container-fluid">
@@ -27,8 +25,8 @@ Bootstrap:
     </div>
 </div>
 ```
-FlexGrid:
 
+FlexGrid:
 
 ```html
 <div class="row">
