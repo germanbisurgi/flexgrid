@@ -7,8 +7,6 @@ Bootstrap:
 col-xs-12 col-xs-offset-2
 ```
 
-<br />
-
 Flexgrid:
 ```html
 xs-12 xs-off-2
@@ -18,7 +16,8 @@ xs-12 xs-off-2
 
 
 Bootstrap:
-<br />
+
+
 ```html
 <div class="container-fluid">
     <div class="row">
@@ -29,7 +28,8 @@ Bootstrap:
 </div>
 ```
 FlexGrid:
-<br />
+
+
 ```html
 <div class="row">
     <div class="sm-4"></div>
