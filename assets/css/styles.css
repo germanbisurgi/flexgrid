@@ -19,7 +19,7 @@ section, header {padding: 0 0 30px 0;}
 .nested-box-2 {
     background: #563D7C;
     color: #fff;
-    padding:10px 15px;
+    padding:10px 0;
     margin: 5px 0;
 }
 
