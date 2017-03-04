@@ -5,6 +5,15 @@
     margin: 0 -15px;
 }
 
+.start   {justify-content: flex-start;}
+.center  {justify-content: center;}
+.end     {justify-content: flex-end;}
+.between {justify-content: space-between;}
+.around  {justify-content: space-around;}
+.top     {align-items: flex-start;}
+.middle  {align-items: center;}
+.bottom  {align-items: flex-end;}
+
 .xs-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 15px;}
 .xs-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 15px;} 
 .xs-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 15px;}
