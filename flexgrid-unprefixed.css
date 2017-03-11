@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 0 0 -15px;
 }
 
 .start   {justify-content: flex-start;}
@@ -14,19 +14,19 @@
 .middle  {align-items: center;}
 .bottom  {align-items: flex-end;}
 
-.xs-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 15px;}
-.xs-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 15px;} 
-.xs-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 15px;}
-.xs-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 15px;}
-.xs-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 15px;}
-.xs-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 15px;}
-.xs-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 15px;}
-.xs-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 15px;}
-.xs-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 15px;}
-.xs-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 15px;}
-.xs-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 15px;}
-.xs-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 15px;}
-.xs-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 15px;}
+.xs-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 0 0 15px;}
+.xs-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 0 0 15px;} 
+.xs-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 0 0 15px;}
+.xs-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 0 0 15px;}
+.xs-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 0 0 15px;}
+.xs-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 0 0 15px;}
+.xs-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 0 0 15px;}
+.xs-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 0 0 15px;}
+.xs-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 0 0 15px;}
+.xs-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 0 0 15px;}
+.xs-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 0 0 15px;}
+.xs-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 0 0 15px;}
+.xs-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 0 0 15px;}
 
 .xs-off-0  {margin-left:     0%;}
 .xs-off-1  {margin-left:  8.33%;}
@@ -42,19 +42,19 @@
 .xs-off-11 {margin-left: 91.66%;}
 
 @media only screen and (min-width: 540px) {
-    .sm-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 15px;}
-    .sm-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 15px;} 
-    .sm-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 15px;}
-    .sm-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 15px;}
-    .sm-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 15px;}
-    .sm-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 15px;}
-    .sm-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 15px;}
-    .sm-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 15px;}
-    .sm-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 15px;}
-    .sm-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 15px;}
-    .sm-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 15px;}
-    .sm-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 15px;}
-    .sm-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 15px;}
+    .sm-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 0 0 15px;}
+    .sm-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 0 0 15px;} 
+    .sm-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 0 0 15px;}
+    .sm-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 0 0 15px;}
+    .sm-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 0 0 15px;}
+    .sm-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 0 0 15px;}
+    .sm-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 0 0 15px;}
+    .sm-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 0 0 15px;}
+    .sm-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 0 0 15px;}
+    .sm-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 0 0 15px;}
+    .sm-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 0 0 15px;}
+    .sm-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 0 0 15px;}
+    .sm-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 0 0 15px;}
 
     .sm-off-0  {margin-left:     0%;}
     .sm-off-1  {margin-left:  8.33%;}
@@ -71,19 +71,19 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .md-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 15px;}
-    .md-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 15px;} 
-    .md-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 15px;}
-    .md-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 15px;}
-    .md-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 15px;}
-    .md-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 15px;}
-    .md-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 15px;}
-    .md-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 15px;}
-    .md-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 15px;}
-    .md-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 15px;}
-    .md-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 15px;}
-    .md-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 15px;}
-    .md-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 15px;}
+    .md-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 0 0 15px;}
+    .md-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 0 0 15px;} 
+    .md-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 0 0 15px;}
+    .md-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 0 0 15px;}
+    .md-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 0 0 15px;}
+    .md-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 0 0 15px;}
+    .md-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 0 0 15px;}
+    .md-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 0 0 15px;}
+    .md-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 0 0 15px;}
+    .md-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 0 0 15px;}
+    .md-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 0 0 15px;}
+    .md-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 0 0 15px;}
+    .md-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 0 0 15px;}
 
     .md-off-0  {margin-left:     0%;}
     .md-off-1  {margin-left:  8.33%;}
@@ -100,19 +100,19 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .lg-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 15px;}
-    .lg-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 15px;} 
-    .lg-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 15px;}
-    .lg-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 15px;}
-    .lg-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 15px;}
-    .lg-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 15px;}
-    .lg-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 15px;}
-    .lg-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 15px;}
-    .lg-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 15px;}
-    .lg-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 15px;}
-    .lg-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 15px;}
-    .lg-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 15px;}
-    .lg-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 15px;}
+    .lg-auto  {flex-basis:   auto; float:left; max-width:   auto; padding: 0 0 0 15px;}
+    .lg-1     {flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 0 0 15px;} 
+    .lg-2     {flex-basis: 16.66%; float:left; max-width: 16.66%; padding: 0 0 0 15px;}
+    .lg-3     {flex-basis:    25%; float:left; max-width:    25%; padding: 0 0 0 15px;}
+    .lg-4     {flex-basis: 33.33%; float:left; max-width: 33.33%; padding: 0 0 0 15px;}
+    .lg-5     {flex-basis: 41.66%; float:left; max-width: 41.66%; padding: 0 0 0 15px;}
+    .lg-6     {flex-basis:    50%; float:left; max-width:    50%; padding: 0 0 0 15px;}
+    .lg-7     {flex-basis: 58.33%; float:left; max-width: 58.33%; padding: 0 0 0 15px;}
+    .lg-8     {flex-basis: 66.66%; float:left; max-width: 66.66%; padding: 0 0 0 15px;}
+    .lg-9     {flex-basis:    75%; float:left; max-width:    75%; padding: 0 0 0 15px;}
+    .lg-10    {flex-basis: 83.33%; float:left; max-width: 83.33%; padding: 0 0 0 15px;}
+    .lg-11    {flex-basis: 91.66%; float:left; max-width: 91.66%; padding: 0 0 0 15px;}
+    .lg-12    {flex-basis:   100%; float:left; max-width:   100%; padding: 0 0 0 15px;}
 
     .lg-off-0  {margin-left:     0%;}
     .lg-off-1  {margin-left:  8.33%;}
