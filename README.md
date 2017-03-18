@@ -2,7 +2,7 @@
 
 [DEMO](https://germanbisurgi.github.io/flexgrid/)
 
-##syntax sugar
+## syntax sugar
 
 Bootstrap:
 ```html
