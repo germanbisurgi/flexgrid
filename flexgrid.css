@@ -11,6 +11,14 @@
     margin: 0 0 0 -15px;
 }
 
+.center-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+    -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+}
+
 .start   {-webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start;}
 .center  {-webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
 .end     {-webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end;}
