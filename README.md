@@ -2,31 +2,14 @@
 
 [demo](https://germanbisurgi.github.io/Flexgrid/)
 
-## syntax sugar
-
-Bootstrap:
-```html
-col-xs-12 col-xs-offset-2
-```
+## Syntax sugar
 
 Flexgrid:
 ```html
 xs-12 xs-off-2
 ```
 
-## no need a container
-
-Bootstrap:
-
-```html
-<div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4"></div>
-    </div>
-</div>
-```
+## no need an extra container to fix gutters problems
 
 FlexGrid:
 
