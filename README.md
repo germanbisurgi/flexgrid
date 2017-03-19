@@ -1,6 +1,6 @@
 # FlexGrid
 
-[DEMO](https://germanbisurgi.github.io/flexgrid/)
+[demo](https://germanbisurgi.github.io/Flexgrid/)
 
 ## syntax sugar
 
