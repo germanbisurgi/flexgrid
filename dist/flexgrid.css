@@ -1,3 +1,6 @@
+* {box-sizing: border-box;}
+
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
