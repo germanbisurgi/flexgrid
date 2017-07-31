@@ -3,162 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
-    <title>Flexgrid example</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/main.css">
+    <title>Flexgrid</title>
 </head>
+
 <body>
-    <div class="wrapper">
 
+<div class="wrapper">
 
+    <header>
+        <h1>FlexGrid</h1>
+        <p>A grid system based on flexbox</p>
+    </header>
 
+    <section>
+        <h2>Responsive</h2>
+        <p>
+            Responsive modifiers (xs, sm, md &amp; lg) enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.
+        </p>
+        <div class="row">
+            <div class="xs-12 sm-3  md-4 lg-4"><div class="box"></div></div>
+            <div class="xs-6  sm-6  md-4 lg-8"><div class="box"></div></div>
+            <div class="xs-6  sm-3  md-4 lg-8"><div class="box"></div></div>
+            <div class="xs-4  sm-6  md-4 lg-4"><div class="box"></div></div>
+            <div class="xs-4  sm-6  md-4 lg-3"><div class="box"></div></div>
+            <div class="xs-4  sm-12 md-4 lg-9"><div class="box"></div></div>
+        </div>
+    </section>
 
-        <header>
-            <h1>FlexGrid</h1>
-            <p>A grid system based on flexbox</p>
-        </header>
+    <section>
+        <h2>Offsets</h2>
+        <p>Offset a column</p>
+        <div class="row">
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+        </div>
+        <div class="row">
+            <div class="xs-11 xs-off-1">  <div class="box"></div></div>
+            <div class="xs-10 xs-off-2">  <div class="box"></div></div>
+            <div class="xs-9  xs-off-3">  <div class="box"></div></div>
+            <div class="xs-8  xs-off-4">  <div class="box"></div></div>
+            <div class="xs-7  xs-off-5">  <div class="box"></div></div>
+            <div class="xs-6  xs-off-6">  <div class="box"></div></div>
+            <div class="xs-5  xs-off-7">  <div class="box"></div></div>
+            <div class="xs-4  xs-off-8">  <div class="box"></div></div>
+            <div class="xs-3  xs-off-9">  <div class="box"></div></div>
+            <div class="xs-2  xs-off-10"> <div class="box"></div></div>
+            <div class="xs-1  xs-off-11"> <div class="box"></div></div>
+        </div>
+    </section>
 
-
-
-
-        <section>
-            <h2>Responsive</h2>
-            <p>
-                Responsive modifiers (xs, sm, md &amp; lg) enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.
-            </p>
-            <div class="row">
-                <div class="xs-12 sm-3  md-4 lg-4"><div class="box"></div></div>
-                <div class="xs-6  sm-6  md-4 lg-8"><div class="box"></div></div>
-                <div class="xs-6  sm-3  md-4 lg-8"><div class="box"></div></div>
-                <div class="xs-4  sm-6  md-4 lg-4"><div class="box"></div></div>
-                <div class="xs-4  sm-6  md-4 lg-3"><div class="box"></div></div>
-                <div class="xs-4  sm-12 md-4 lg-9"><div class="box"></div></div>
-            </div>
-        </section>
-
-
-
-
-        <section>
-            <h2>Offsets</h2>
-            <p>Offset a column</p>
-            <div class="row">
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-            </div>
-            <div class="row">
-                <div class="xs-11 xs-off-1">  <div class="box"></div></div>
-                <div class="xs-10 xs-off-2">  <div class="box"></div></div>
-                <div class="xs-9  xs-off-3">  <div class="box"></div></div>
-                <div class="xs-8  xs-off-4">  <div class="box"></div></div>
-                <div class="xs-7  xs-off-5">  <div class="box"></div></div>
-                <div class="xs-6  xs-off-6">  <div class="box"></div></div>
-                <div class="xs-5  xs-off-7">  <div class="box"></div></div>
-                <div class="xs-4  xs-off-8">  <div class="box"></div></div>
-                <div class="xs-3  xs-off-9">  <div class="box"></div></div>
-                <div class="xs-2  xs-off-10"> <div class="box"></div></div>
-                <div class="xs-1  xs-off-11"> <div class="box"></div></div>
-            </div>
-        </section>
-
-
-
-
-        <section>
-            <h2>Nesting</h2>
-            <p>Yes, we can</p>
-            <div class="row">
-                <div class="xs-12 md-8">
-                    <div class="box">
-                        <div class="row">
-                            <div class="xs-8">
-                                <div class="nested-box-1">
-                                    <div class="row">
-                                        <div class="xs-8">
-                                            <div class="nested-box-2"></div>
-                                        </div>
-                                        <div class="xs-4">
-                                            <div class="nested-box-2"></div>
-                                        </div>
-                                    </div> 
-                                </div>
+    <section>
+        <h2>Nesting</h2>
+        <p>Yes, we can</p>
+        <div class="row">
+            <div class="xs-12 md-8">
+                <div class="box">
+                    <div class="row">
+                        <div class="xs-8">
+                            <div class="nested-box-1">
+                                <div class="row">
+                                    <div class="xs-8">
+                                        <div class="nested-box-2"></div>
+                                    </div>
+                                    <div class="xs-4">
+                                        <div class="nested-box-2"></div>
+                                    </div>
+                                </div> 
                             </div>
-                            <div class="xs-4">
-                                <div class="nested-box-1">
-                                    <div class="row">
-                                        <div class="xs-12">
-                                            <div class="nested-box-2"></div>
-                                        </div>
-                                    </div> 
-                                </div>
+                        </div>
+                        <div class="xs-4">
+                            <div class="nested-box-1">
+                                <div class="row">
+                                    <div class="xs-12">
+                                        <div class="nested-box-2"></div>
+                                    </div>
+                                </div> 
                             </div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="xs-12 md-4">
-                    <div class="box">
-                        <div class="row">
-                            <div class="xs-4">
-                                <div class="nested-box-1">
-                                    <div class="row">
-                                        <div class="xs-12">
-                                            <div class="nested-box-2"></div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-                            <div class="xs-8">
-                                <div class="nested-box-1">
-                                    <div class="row">
-                                        <div class="xs-8">
-                                            <div class="nested-box-2"></div>
-                                        </div>
-                                        <div class="xs-4">
-                                            <div class="nested-box-2"></div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
-        </section>
-
-
-
-
-        <section>
-            <h2>Gutters</h2>
-            <p>BOH</p>
-            <div class="row">
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
-                <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-12 md-4">
+                <div class="box">
+                    <div class="row">
+                        <div class="xs-4">
+                            <div class="nested-box-1">
+                                <div class="row">
+                                    <div class="xs-12">
+                                        <div class="nested-box-2"></div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="xs-8">
+                            <div class="nested-box-1">
+                                <div class="row">
+                                    <div class="xs-8">
+                                        <div class="nested-box-2"></div>
+                                    </div>
+                                    <div class="xs-4">
+                                        <div class="nested-box-2"></div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <section>
+        <h2>Gutters</h2>
+        <p>Nice</p>
+        <div class="row">
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+            <div class="xs-1"><div class="box"></div></div>
+        </div>
+    </section>
 
+</div>
+    
 
-
-    </div>
 </body>
+
 </html>
