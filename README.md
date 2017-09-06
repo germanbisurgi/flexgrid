@@ -2,21 +2,14 @@
 
 [demo](https://germanbisurgi.github.io/Flexgrid/)
 
-## Syntax sugar
-
-Flexgrid:
-```html
-xs-12 xs-off-2
-```
-
-## no need an extra container to fix gutters problems
-
-FlexGrid:
 
 ```html
 <div class="row">
-    <div class="sm-4"></div>
-    <div class="sm-4"></div>
-    <div class="sm-4"></div>
+    <div class="xs-12 sm-3  md-4 lg-4"><div class="box"></div></div>
+    <div class="xs-6  sm-6  md-4 lg-8"><div class="box"></div></div>
+    <div class="xs-6  sm-3  md-4 lg-8"><div class="box"></div></div>
+    <div class="xs-4  sm-6  md-4 lg-4"><div class="box"></div></div>
+    <div class="xs-4  sm-6  md-4 lg-3"><div class="box"></div></div>
+    <div class="xs-4  sm-12 md-4 lg-9"><div class="box"></div></div>
 </div>
 ```
