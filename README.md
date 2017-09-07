@@ -1,16 +1,10 @@
 # FlexGrid
 
-<<<<<<< HEAD
-[demo](https://germanbisurgi.github.io/Flexgrid/)
-
-## Syntax sugar
-=======
 A Flexbox version of the awesome Bootstrap Grid System.
 
 [demo](https://germanbisurgi.github.io/Flexgrid/)
 
 ## Responsive
->>>>>>> gh-pages
 
 ```html
 <div class="row">
@@ -23,9 +17,6 @@ A Flexbox version of the awesome Bootstrap Grid System.
 </div>
 ```
 
-<<<<<<< HEAD
-## no need an extra container to fix gutters problems
-=======
 ## Offsets
 
 ```html
@@ -43,7 +34,6 @@ A Flexbox version of the awesome Bootstrap Grid System.
     <div class="xs-1  xs-off-11"> <div class="box"></div></div>
 </div>
 ```
->>>>>>> gh-pages
 
 ## Nesting
 
