@@ -13,26 +13,14 @@
     margin: 0 0 0 -15px;
 }
 
-.flex-center-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-
-.flex-start   {-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;}
-.flex-center  {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
-.flex-end     {-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;}
-.flex-between {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
-.flex-around  {-ms-flex-pack: distribute;justify-content: space-around;}
-.flex-top     {-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}
-.flex-middle  {-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
-.flex-bottom  {-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;}
+.flex-justify-start   {-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;}
+.flex-justify-center  {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+.flex-justify-end     {-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;}
+.flex-justify-between {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
+.flex-justify-around  {-ms-flex-pack: distribute;justify-content: space-around;}
+.flex-justify-top     {-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}
+.flex-justify-middle  {-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.flex-justify-bottom  {-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;}
 
 .flex-xs-auto  {-ms-flex-preferred-size:   auto;flex-basis:   auto; float:left; max-width:   auto; padding: 0 0 0 15px;}
 .flex-xs-1     {-ms-flex-preferred-size:  8.33%;flex-basis:  8.33%; float:left; max-width:  8.33%; padding: 0 0 0 15px;}
