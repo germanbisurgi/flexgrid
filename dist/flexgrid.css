@@ -25,6 +25,13 @@
 .flex-xs-align-baseline {-webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline;}
 .flex-xs-align-stretch  {-webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch;}
 
+.flex-xs-self-start {-webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start;}
+.flex-xs-self-end {-webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end;}
+.flex-xs-self-center {-webkit-align-self: center; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center;}
+.flex-xs-self-baseline {-webkit-align-self: baseline; -ms-flex-item-align: baseline; align-self: baseline;}
+.flex-xs-self-stretch {-webkit-align-self: stretch; -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch;}
+.flex-xs-self-auto {-webkit-align-self: auto; -ms-flex-item-align: auto; -ms-grid-row-align: auto; align-self: auto;}
+
 .flex-xs-no-wrap {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
@@ -78,6 +85,13 @@
     .flex-sm-align-end      {-webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end;}
     .flex-sm-align-baseline {-webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline;}
     .flex-sm-align-stretch  {-webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch;}
+
+    .flex-sm-self-start {-webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start;}
+    .flex-sm-self-end {-webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end;}
+    .flex-sm-self-center {-webkit-align-self: center; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center;}
+    .flex-sm-self-baseline {-webkit-align-self: baseline; -ms-flex-item-align: baseline; align-self: baseline;}
+    .flex-sm-self-stretch {-webkit-align-self: stretch; -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch;}
+    .flex-sm-self-auto {-webkit-align-self: auto; -ms-flex-item-align: auto; -ms-grid-row-align: auto; align-self: auto;}
 
     .flex-sm-no-wrap {
         -webkit-flex-wrap: nowrap;
@@ -133,6 +147,13 @@
     .flex-md-align-end      {-webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end;}
     .flex-md-align-baseline {-webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline;}
     .flex-md-align-stretch  {-webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch;}
+    
+    .flex-md-self-start {-webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start;}
+    .flex-md-self-end {-webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end;}
+    .flex-md-self-center {-webkit-align-self: center; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center;}
+    .flex-md-self-baseline {-webkit-align-self: baseline; -ms-flex-item-align: baseline; align-self: baseline;}
+    .flex-md-self-stretch {-webkit-align-self: stretch; -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch;}
+    .flex-md-self-auto {-webkit-align-self: auto; -ms-flex-item-align: auto; -ms-grid-row-align: auto; align-self: auto;}
 
     .flex-md-no-wrap {
         -webkit-flex-wrap: nowrap;
@@ -188,6 +209,13 @@
     .flex-lg-align-end      {-webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end;}
     .flex-lg-align-baseline {-webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline;}
     .flex-lg-align-stretch  {-webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch;}
+
+    .flex-lg-self-start {-webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start;}
+    .flex-lg-self-end {-webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end;}
+    .flex-lg-self-center {-webkit-align-self: center; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center;}
+    .flex-lg-self-baseline {-webkit-align-self: baseline; -ms-flex-item-align: baseline; align-self: baseline;}
+    .flex-lg-self-stretch {-webkit-align-self: stretch; -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch;}
+    .flex-lg-self-auto {-webkit-align-self: auto; -ms-flex-item-align: auto; -ms-grid-row-align: auto; align-self: auto;}
 
     .flex-lg-no-wrap {
         -webkit-flex-wrap: nowrap;
