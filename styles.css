@@ -1,4 +1,4 @@
-body {background: #eee;}
+body {background: #fff;}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -14,14 +14,31 @@ section, header {padding: 0 0 30px 0;}
 
 .wrapper {padding: 0 15px}
 
+pre {
+    overflow-x: auto;
+    padding: 1.25em;
+    border: 1px solid #e6e6e6;
+    border-left-width: 5px;
+    margin: 1.6em 0;
+    font-size: .875em;
+    background: #fcfcfc;
+    white-space: pre;
+    word-wrap: normal;
+}
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    color: #ff6b6b;
+    
+}
+
 .box {
     background: #ff6b6b;
     box-shadow: 0 0 0 1px #fff inset;
-    padding: 10px 0;
+    height: 20px;
 }
 
 .container {
-    background: #ccc;
+    background: #fcfcfc;
     box-shadow: 0 0 0 1px #fff inset;
     padding: 10px 0;
 }

@@ -14,29 +14,65 @@
 
     <header>
         <h1>FlexGrid</h1>
-        <p>A grid system based on flexbox</p>
+        <p>A very flexible, fluid and responsive grid system based on flexbox</p>
     </header>
 
     <section>
-        <h2>Responsive & Fluid</h2>
-        <p>
-            Responsive modifiers (flex-xs, sm, md &amp; lg) enable specifying different column sizes, offsetsets, alignment and distribution at flex-xs, sm, md &amp; lg viewport widths.
-        </p>
+        <h2>Rows and columns</h2>
+        <p>Use the <code>flex-row</code> class to create a row.</p>
+        <p>Now tha you have a row you can add Columns to it. Use the 
+        <code>flex-xs-4</code> class to create a column that will be 4/12 of the
+        that row.</p>
+        <p>Every Flexgrid class have a <code>flex-</code> prefix.</p>
+
+<pre>
+<code>
+&lt;div class="flex-row"&gt;
+    &lt;div class="flex-xs-6"&gt;
+        &lt;!-- content --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+    </section>
+
+    <section>
+        <h2>Responsive Modifiers</h2>
+        <p>Flexgrid uses responsive modifiers: <code>xs</code> (extra small),
+        <code>sm</code> (small), <code>md</code> (medium) and <code>lg</code>
+        (large) into predefined classes to control the columns behaviors in relation
+        with the width of the viewport.</p>
+
         <div class="container">
             <div class="flex-row">
-                <div class="flex-xs-12 flex-sm-3  flex-md-4 lg-4"><div class="box"></div></div>
-                <div class="flex-xs-6  flex-sm-6  flex-md-4 lg-8"><div class="box"></div></div>
-                <div class="flex-xs-6  flex-sm-3  flex-md-4 lg-8"><div class="box"></div></div>
-                <div class="flex-xs-4  flex-sm-6  flex-md-4 lg-4"><div class="box"></div></div>
-                <div class="flex-xs-4  flex-sm-6  flex-md-4 lg-3"><div class="box"></div></div>
-                <div class="flex-xs-4  flex-sm-12 flex-md-4 lg-9"><div class="box"></div></div>
+                <div class="flex-xs-12 flex-sm-3  flex-md-4 flex-lg-4"><div class="box"></div></div>
+                <div class="flex-xs-6  flex-sm-6  flex-md-4 flex-lg-8"><div class="box"></div></div>
+                <div class="flex-xs-6  flex-sm-3  flex-md-4 flex-lg-8"><div class="box"></div></div>
+                <div class="flex-xs-4  flex-sm-6  flex-md-4 flex-lg-4"><div class="box"></div></div>
+                <div class="flex-xs-4  flex-sm-6  flex-md-4 flex-lg-3"><div class="box"></div></div>
+                <div class="flex-xs-4  flex-sm-12 flex-md-4 flex-lg-9"><div class="box"></div></div>
             </div>
         </div>
+
+<pre>
+<code>
+&lt;div class="flex-row"&gt;
+    &lt;div class="flex-xs-12 flex-sm-3  flex-md-4 flex-lg-4"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-6  flex-sm-6  flex-md-4 flex-lg-8"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-6  flex-sm-3  flex-md-4 flex-lg-8"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-4  flex-sm-6  flex-md-4 flex-lg-4"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-4  flex-sm-6  flex-md-4 flex-lg-3"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-4  flex-sm-12 flex-md-4 flex-lg-9"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
     </section>
 
     <section>
         <h2>Offsets</h2>
-        <p>Offset a column</p>
+        <p>Offset a column. Ex. <code>flex-xs-offset-4</code></p>
         <div class="container">
             <div class="flex-row">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -108,6 +144,18 @@
                 <div class="flex-xs-1 flex-xs-offset-11">  <div class="box"></div></div>
             </div>
         </div>
+
+<pre>
+<code>
+&lt;div class="flex-row"&gt;
+    &lt;div class="flex-xs-11 flex-xs-offset-1""&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-10 flex-xs-offset-2"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-9 flex-xs-offset-3"&gt;&lt;/div&gt;
+    &lt;!-- etc --&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
     </section>
 
     <section>
@@ -183,6 +231,21 @@
                 </div>
             </div>
         </div>
+
+<pre>
+<code>
+&lt;div class="flex-row"&gt;
+    &lt;div class="flex-xs-6"&gt;
+        &lt;div class="fle-row"&gt;
+            &lt;div class="flex-xs-6"&gt;
+                &lt;!-- etc --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
     </section>
 
     <section>
@@ -208,7 +271,8 @@
 
     <section>
         <h2>Justify</h2>
-        <p>start</p>
+        <p>This defines the alignment along the x axis</p>
+        <br>
         <div class="container">
             <div class="flex-row flex-xs-justify-start">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -216,7 +280,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>center</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-justify-start"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div class="flex-row flex-xs-justify-center">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -224,7 +296,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>end</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-justify-center"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div class="flex-row flex-xs-justify-end">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -232,7 +312,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>between</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-justify-end"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div class="flex-row flex-xs-justify-between">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -240,7 +328,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>around</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-justify-between"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div class="flex-row flex-xs-justify-around">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -248,11 +344,23 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-justify-around"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
     </section>
 
     <section>
         <h2>Align</h2>
-        <p>start</p>
+        <p>This defines the default behaviour for how flex items are laid out
+        along the cross axis on the current line.</p>
+        <br>
+
         <div class="container">
             <div style="height: 75px;" class="flex-row flex-xs-justify-center flex-xs-align-start">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -260,7 +368,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>center</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-align-start"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div style="height: 75px;" class="flex-row flex-xs-justify-center flex-xs-align-center">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -268,7 +384,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>end</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-align-center"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div style="height: 75px;" class="flex-row flex-xs-justify-center flex-xs-align-end">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -276,7 +400,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>baseline</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-align-end"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div style="height: 75px;" class="flex-row flex-xs-justify-center flex-xs-align-baseline">
                 <div class="flex-xs-1"><div class="box"></div></div>
@@ -284,7 +416,15 @@
                 <div class="flex-xs-1"><div class="box"></div></div>
             </div>
         </div>
-        <p>stretch</p>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-align-baseline"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
         <div class="container">
             <div style="height: 75px;" class="flex-row flex-xs-justify-center flex-xs-align-stretch">
                 <div class="flex-xs-1"><div class="box" style="height: 100%;"></div></div>
@@ -292,10 +432,22 @@
                 <div class="flex-xs-1"><div class="box" style="height: 100%;"></div></div>
             </div>
         </div>
+
+<pre>
+<code>
+&lt;div class="flex-row flex-xs-align-stretch"&gt;
+    &lt;div class="flex-xs-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
     </section>
 
     <section>
         <h2>Self</h2>
+        <p>This allows the default alignment to be overridden for individual flex
+        items.</p>
+        <br>
         <div class="container">
             <div style="height: 75px;"  class="flex-row">
                 <div class="flex-xs-1 flex-xs-self-start"><div class="box"></div></div>
@@ -305,6 +457,19 @@
                 <div class="flex-xs-1 flex-xs-self-stretch"><div class="box" style="height: 100%;"></div></div>
             </div>
         </div>
+
+<pre>
+<code>
+&lt;div class="flex-row"&gt;
+    &lt;div class="flex-xs-1 flex-xs-self-start"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-1 flex-xs-self-center"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-1 flex-xs-self-end"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-1 flex-xs-self-baseline"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-1 flex-xs-self-stretch"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
     </section>
 
 </div>
