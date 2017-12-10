@@ -20,7 +20,7 @@
     <section>
         <h2>Rows and columns</h2>
         <p>Use the <code>flex-row</code> class to create a row.</p>
-        <p>Now tha you have a row you can add Columns to it. Use the 
+        <p>Now tha you have a row you can add Columns to it. Use the
         <code>flex-xs-4</code> class to create a column that will be 4/12 of the
         that row.</p>
         <p>Every Flexgrid class have a <code>flex-</code> prefix.</p>
@@ -430,8 +430,36 @@
 
     </section>
 
+    <section>
+        <h2>Order</h2>
+        <p>Make ther order of the columns responsive</p>
+        <br>
+        <div class="container">
+            <div class="flex-row">
+                <div class="flex-xs-grow flex-xs-order-1 flex-md-order-5"><div class="box-a" style="background: yellow;"></div></div>
+                <div class="flex-xs-grow flex-xs-order-2 flex-md-order-3"><div class="box-a" style="background: orange;"></div></div>
+                <div class="flex-xs-grow flex-xs-order-3 flex-md-order-4"><div class="box-a" style="background: red;"></div></div>
+                <div class="flex-xs-grow flex-xs-order-4 flex-md-order-2"><div class="box-a" style="background: purple;"></div></div>
+                <div class="flex-xs-grow flex-xs-order-5 flex-md-order-1"><div class="box-a" style="background: blue;"></div></div>
+            </div>
+        </div>
+
+<pre>
+<code>
+&lt;div class="flex-row"&gt;
+    &lt;div class="flex-xs-grow flex-xs-order-1 flex-md-order-5"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-grow flex-xs-order-2 flex-md-order-3"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-grow flex-xs-order-3 flex-md-order-4"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-grow flex-xs-order-4 flex-md-order-2"&gt;&lt;/div&gt;
+    &lt;div class="flex-xs-grow flex-xs-order-5 flex-md-order-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+    </section>
+
 </div>
-    
+
 
 </body>
 
