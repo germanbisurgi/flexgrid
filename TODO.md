@@ -2,4 +2,7 @@
 
 - new docs
 - column direction?
--shorter classes (but namespaced)
+- shorter classes (but namespaced)
+- remove js from dist
+- linting?
+- test?
