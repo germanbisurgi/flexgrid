@@ -8,11 +8,12 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "prefix": "autoprefixer --help"
+    "serve": "live-server"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.0",
     "css-loader": "^3.0.0",
+    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.7.0",
     "postcss-loader": "^3.0.0",
     "style-loader": "^0.23.1",
