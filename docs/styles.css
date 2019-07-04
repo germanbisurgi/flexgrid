@@ -53,21 +53,15 @@ code {
   display: inline-block;
 }
 
-.box-a {
+.box {
   background: #41b883;
-  box-shadow: 0 0 0 1px #fff inset;
+  border: 1px solid #e6e6e6;
   color: #fff;
   text-align: center;
   padding: 15px 10px;
 }
 
-.box-b {
-  background: #069;
-  box-shadow: 0 0 0 1px #fff inset;
-  padding: 15px 10px;
-}
-
 .container {
-  background: #eee;
-  box-shadow: 0 0 0 1px #fff inset;
+  background: #fefefe;
+  border: 1px solid #e6e6e6;
 }
