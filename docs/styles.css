@@ -1,74 +1,73 @@
 body {
-    background: #fff;
-    font-family: monospace, serif;
+  background: #fff;
+  font-family: monospace, serif;
 }
 
 h1 {
-    color: #35495e;
-    font-size: 36px;
-    margin: 0 0 18px 0;
+  color: #35495e;
+  font-size: 36px;
+  margin: 0 0 18px 0;
 }
 
 h2 {
-    color: #35495e;
-    font-size: 30px;
-    margin: 0 0 15px 0;
+  color: #35495e;
+  font-size: 30px;
+  margin: 0 0 15px 0;
 }
 
 h3 {
-    font-size: 24px;
-    margin: 0 0 12px 0;
+  font-size: 24px;
+  margin: 0 0 12px 0;
 }
 
 p {
-    font-size: 16px;
-    margin: 0 0 18px 0;
+  font-size: 16px;
+  margin: 0 0 18px 0;
 }
 
 section,
 header {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 .wrapper {
-    padding: 0 15px
+  padding: 0 15px;
 }
 
 pre {
-    background: #fefefe;
-    border: 1px solid #e6e6e6;
-    color: #41b883;
-    font-size: 14px;
-    margin: 1.6em 0;
-    overflow-x: auto;
-    padding: 1.25em;
-    white-space: pre;
-    word-wrap: normal;
+  background: #fefefe;
+  border: 1px solid #e6e6e6;
+  color: #41b883;
+  font-size: 14px;
+  margin: 1.6em 0;
+  overflow-x: auto;
+  padding: 1.25em;
+  white-space: pre;
+  word-wrap: normal;
 }
 
 code {
-    background: #fefefe;
-    border: 1px solid #e6e6e6;
-    color: #41b883;
-    display: inline-block;
+  background: #fefefe;
+  border: 1px solid #e6e6e6;
+  color: #41b883;
+  display: inline-block;
 }
 
 .box-a {
-    background: #41b883;
-    box-shadow: 0 0 0 1px #fff inset;
-    color: #fff;
-    text-align: center;
-    padding: 15px 10px;
+  background: #41b883;
+  box-shadow: 0 0 0 1px #fff inset;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
 }
 
 .box-b {
-    background: #006699;
-    box-shadow: 0 0 0 1px #fff inset;
-    padding: 15px 10px;
+  background: #069;
+  box-shadow: 0 0 0 1px #fff inset;
+  padding: 15px 10px;
 }
 
 .container {
-    background: #eee;
-    box-shadow: 0 0 0 1px #fff inset;
+  background: #eee;
+  box-shadow: 0 0 0 1px #fff inset;
 }
-
