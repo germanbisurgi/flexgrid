@@ -1,8 +1,7 @@
 # TODO
 
-- new docs
-- column direction?
-- shorter classes (but namespaced)
 - remove js from dist
-- linting?
 - test?
+- space evenly
+- document wrap? wrap needed?
+- follow a complete guite to flexbox for documentation
