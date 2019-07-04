@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack",
     "serve": "live-server",
-    "lint": "stylelint ./src --fix"
+    "lint": "stylelint ./src ./docs --fix"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.0",
