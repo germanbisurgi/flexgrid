@@ -1,10 +1,10 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
     entry: './src/flexgrid.css',
     output: {
-        //filename: 'flexgrid.css',
         path: path.resolve(__dirname, 'dist'),
     },
     mode: 'production',
@@ -22,9 +22,17 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: '[name].css',
+            filename: 'flexgrid.css',
             chunkFilename: '[id].css',
         }),
+        new StyleLintPlugin({
+          configFile: '.stylelintrc',
+          context: 'src',
+          files: '**/*.css',
+          failOnError: false,
+          quiet: false,
+          emitErrors: true // by default this is to true to check the CSS lint errors
+        })
     ]
 }
 
