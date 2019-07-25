@@ -28,6 +28,10 @@
   justify-content: space-around;
 }
 
+.flex-evenly {
+  justify-content: space-evenly;
+}
+
 .flex-top {
   align-items: flex-start;
 }
@@ -279,6 +283,10 @@
   justify-content: space-around;
 }
 
+.flex-xs-evenly {
+  justify-content: space-evenly;
+}
+
 .flex-xs-top {
   align-items: flex-start;
 }
@@ -527,6 +535,10 @@
 
   .flex-sm-around {
     justify-content: space-around;
+  }
+
+  .flex-sm-evenly {
+    justify-content: space-evenly;
   }
 
   .flex-sm-top {
@@ -780,6 +792,10 @@
     justify-content: space-around;
   }
 
+  .flex-md-evenly {
+    justify-content: space-evenly;
+  }
+
   .flex-md-top {
     align-items: flex-start;
   }
@@ -1029,6 +1045,10 @@
 
   .flex-lg-around {
     justify-content: space-around;
+  }
+
+  .flex-lg-evenly {
+    justify-content: space-evenly;
   }
 
   .flex-lg-top {
