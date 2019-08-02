@@ -98,6 +98,7 @@
 }
 
 .flex-grow {
+  flex-basis: auto;
   -webkit-box-flex: 1;
           flex-grow: 1;
 }
@@ -376,6 +377,7 @@
 }
 
 .flex-xs-grow {
+  flex-basis: auto;
   -webkit-box-flex: 1;
           flex-grow: 1;
 }
@@ -653,6 +655,7 @@
   }
 
   .flex-sm-grow {
+    flex-basis: auto;
     -webkit-box-flex: 1;
             flex-grow: 1;
   }
@@ -931,6 +934,7 @@
   }
 
   .flex-md-grow {
+    flex-basis: auto;
     -webkit-box-flex: 1;
             flex-grow: 1;
   }
@@ -1209,6 +1213,7 @@
   }
 
   .flex-lg-grow {
+    flex-basis: auto;
     -webkit-box-flex: 1;
             flex-grow: 1;
   }

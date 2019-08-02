@@ -1,5 +1,6 @@
 # TODO
 
+- document grow and auto
 - remove js from dist
 - test?
 - document wrap? wrap needed?
